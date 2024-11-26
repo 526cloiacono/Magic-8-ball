@@ -20,35 +20,35 @@ let imageChoice = ''
 switch (randomNumber) {
   case 0:
     eightBall = 'It is certain'
-    imageChoice = ''
+    imageChoice = 'imgs/ball1.jpg'
     break;
   case 1:
     eightBall = 'It is decidedly so'
-     imageChoice = ''
+     imageChoice = 'imgs/ball2.jpg'
     break;
   case 2:
     eightBall = 'Reply hazy try again'
-     imageChoice = ''
+     imageChoice = 'imgs/ball3.jpg'
     break;
   case 3:
     eightBall = 'Cannot predict now'
-     imageChoice = ''
+     imageChoice = 'imgs/ball4.avif'
     break;
   case 4:
     eightBall = 'Do not count on it'
-     imageChoice = ''
+     imageChoice = 'imgs/ball5.png'
     break;
   case 5:
     eightBall = 'My sources say no'
-     imageChoice = ''
+     imageChoice = 'imgs/ball6.jpg'
     break;
   case 6:
     eightBall = 'Outlook not so good'
-     imageChoice = ''
+     imageChoice = 'imgs/ball7.jpg'
     break;
   case 7:
     eightBall = 'Signs point to yes'
-     imageChoice = ''
+     imageChoice = 'imgs/ball8.jpg'
   default:
     console.log(`There appears to be a problem ${userName}! Please contact nine bal services.`)
 }
