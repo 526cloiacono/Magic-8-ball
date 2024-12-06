@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    background-color: white; 
+    margin: 10;
+    padding: 10;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+#greeting {
+    font-size: 40px;
+    color: grey;
+    margin-top: 10px;
+}
+
+
+#response-text {
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#response-img {
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: Green;
+    transform: scale(1.2);
+}
+
+#magic-8-ball {
+    background-color: grey;
+    color: white;
+    border-radius: 15px;
+    padding: 30px;
+    width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 10px 20px;}
